@@ -38,6 +38,11 @@ mysql         :
     desc      : 初始化数据
     do_insert : insert into `user` values('a', 'b');
     vf_result : success
+---
+nyy         :
+    desc    : 访问根路径，返回码应为200
+    do_get  : /nyy
+    vf_code : 200
 """
 
 ################## YAML Customize (need orderDict) #############################
